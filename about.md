@@ -1,7 +1,7 @@
 # Computer Systems and Programming Tools
 
 ```{important}
-This syllabus is best viewed as a website, the pdf is provided only to 
+This syllabus is best viewed as a website
 ```
 
 ## About this course
