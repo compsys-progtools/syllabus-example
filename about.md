@@ -1,7 +1,7 @@
 # Computer Systems and Programming Tools
 
 ```{important}
-This syllabus is best viewed as a website
+This syllabus is best viewed as a website [see a previous semester's version](https://introcompsys.github.io/fall2023/)
 ```
 
 ## About this course

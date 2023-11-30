@@ -38,17 +38,17 @@ We will focus on *learning* the tools to start, treating them as an example of h
 ```{code-cell} ipython
 :tags: ['hide-input']
 import pandas as pd
-pd.read_csv('schedule.csv',index_col='date')
+pd.read_csv('schedule.csv',index_col='date')[['question','keyword','activity']].rename(columns= lambda s:s.title())
 ```
 
-##  Lab schedule
+##  Lab Schedule
 
 Lab provides extra support and accountability.  Some lab activities will directly be time to work on tasks from review or practice badges.  Some lab activities will help you review class material. Some lab activities will include self-assessments and reflection on your course progress to ensure that you are not falling behind.  
 
-Every week at the end of lab you will "check out" with a TA or instructor, reviewing your work and showing that you completed any setup or install steps that are needed for the upcoming classes. The checkout is evaluated only on completion, any components that are important to get correct will be assessed in a review or practice badge. 
+Every week at the end of lab you will "check out" with a TA or instructor, reviewing your work and showing that you completed any setup or install steps that are needed for the upcoming classes. The checkout process requires that you have a brief conversation with the instructor or a TA to show that you have have completed steps and are prepared for upcoming classes. For example, that you know what the terminal to use is for the upcoming material on your specific computer since that can vary from student to student. The checkout is evaluated only on completion, any components that are important to get correct will be assessed in a review or practice badge. 
 
 ```{code-cell} ipython
 :tags: ['hide-input']
 
-pd.read_csv('labschedule.csv',index_col='date')
+pd.read_csv('labschedule.csv',index_col='date').sort_index()
 ```
